@@ -1,0 +1,11 @@
+numpy>=1.19.0
+matplotlib>=3.3.0
+scikit-learn>=0.24.0
+qiskit>=0.40.0
+qiskit-optimization>=0.5.0
+qiskit-algorithms>=0.2.0
+
+
+pip install numpy matplotlib scikit-learn scipy qiskit qiskit-optimization qiskit-algorithms
+
+scipy is required for the convex hull and optimization logic in aurdino+qaoa.py.
